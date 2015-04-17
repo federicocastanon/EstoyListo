@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#0099cc"
+    tools:context="hackatonasdra.estoylisto.Tutotial">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true" android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:id="@+id/imagenTutorial"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_weight="0.7"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/descripcionTutorial"
+            android:layout_weight="0.2" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dip"
+        android:fitsSystemWindows="true" android:orientation="horizontal" android:id="@+id/botoneraTutorial" android:layout_weight="0.1">
+
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
